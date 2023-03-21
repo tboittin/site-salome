@@ -65,8 +65,8 @@ img {
 }
 
 button,
-input[type=submit],
-input[type=reset] {
+input[type="submit"],
+input[type="reset"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -77,46 +77,3 @@ input[type=reset] {
   font-size: 100%;
   font-family: inherit;
 }
-
-nav {
-  text-transform: uppercase;
-  font-weight: bold;
-}
-nav a {
-  text-decoration: none;
-  outline: none;
-}
-nav ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-around;
-  width: 100vw;
-}
-
-body {
-  background-color: #fdfaf1;
-  color: #0a5f5f;
-}
-
-.hero {
-  background-color: #0a5f5f;
-  color: #fdfaf1;
-  height: 200vh;
-  width: 100vw;
-  font-size: 3rem;
-}
-
-.about {
-  height: 100vh;
-}
-
-.motifs {
-  height: 100vh;
-  background-color: #0a5f5f;
-}
-
-.contacts {
-  height: 100vh;
-}
-
-/*# sourceMappingURL=styles.css.map */
