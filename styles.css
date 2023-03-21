@@ -101,9 +101,12 @@ body {
 .hero {
   background-color: #0a5f5f;
   color: #fdfaf1;
-  height: 200vh;
+  height: 100vh;
   width: 100vw;
   font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about {
@@ -112,7 +115,6 @@ body {
 
 .motifs {
   height: 100vh;
-  background-color: #0a5f5f;
 }
 
 .contacts {
