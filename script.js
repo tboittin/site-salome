@@ -1,6 +1,7 @@
-const hamburger = document.querySelector('.hamburger');
-const navbar = document.querySelector('#navbar');
+const hamburger = document.getElementById('hamburger');
+const navbar = document.getElementById('navbar');
 
-hamburger.addEventListener('click', () => {
+hamburger.addEventListener('click', function() {
+  this.classList.toggle('active');
   navbar.classList.toggle('nav-open');
 });
