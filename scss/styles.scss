@@ -1,14 +1,15 @@
 header {
   position: absolute;
   top: 0px;
+  left: 0px;
   z-index: 10;
   background-color: transparent;
   height: fit-content;
-  width: fit-content;
+  width: 100%;
   #hamburger {
-    display: block;
     cursor: pointer;
-    margin: 15px 0px;
+    margin: 15px 15px;
+    display: block;
     height: fit-content;
     width: 25px;
     .hamburger-bar {
@@ -23,24 +24,23 @@ header {
         margin-bottom: 0;
       }
     }
-
-    &.active .hamburger-bar:nth-child(1) {
-      transform: translateY(8px) rotate(45deg);
-    }
-
-    &.active .hamburger-bar:nth-child(2) {
-      opacity: 0;
-    }
-
-    &.active .hamburger-bar:nth-child(3) {
-      transform: translateY(-8px) rotate(-45deg);
+    &.active {
+      & .hamburger-bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+      }
+      & .hamburger-bar:nth-child(2) {
+        opacity: 0;
+      }
+      & .hamburger-bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+      }
     }
   }
   nav {
     display: none;
     ul {
       flex-direction: column;
-      padding: 10px 0;
+      padding: 0 10px;
       margin: 0;
       list-style: none;
       li {
