@@ -1,3 +1,37 @@
+$primary: #2f5266;
+$secondary: #f4f0ed;
+$tumbleweed: #DEA681;
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Playfair Display';
+  text-transform: capitalize;
+}
+
+p,
+li {
+  font-family: 'Lato';
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
 header {
   position: absolute;
   top: 0px;
@@ -48,7 +82,7 @@ header {
         a {
           display: block;
           text-decoration: none;
-          color: #fff;
+          color: $secondary;
           padding: 10px;
           &:hover {
             font-weight: bold;
@@ -60,21 +94,47 @@ header {
 
   .nav-open {
     display: block;
+    background-color: $primary;
   }
 }
 
 main {
-  top: 0px;
-  left: 0px;
-  position: absolute;
-  .hero {
-    background-color: #2f5266;
-    color: #fff;
-    height: 100svh;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  .section {
+    min-height: 100svh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    .content {
+      max-width: 90%;
+    }
   }
+  .hero {
+    background-color: $primary;
+    color: $secondary;
+  }
+  .motifs {
+    background-color: $secondary;
+    color: $primary;
+  }
+  .about {
+    background-color: $primary;
+    color: $secondary;
+  }
+  .contact {
+    background-color: $secondary;
+    color: $primary;
+  }
+}
+footer {
+  background-color: $primary;
+  color: $secondary;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
 }
 @media (min-width: 768px) {
   header {

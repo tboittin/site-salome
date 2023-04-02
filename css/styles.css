@@ -1,3 +1,33 @@
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display";
+  text-transform: capitalize;
+}
+
+p,
+li {
+  font-family: "Lato";
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
 header {
   position: absolute;
   top: 0px;
@@ -49,7 +79,7 @@ header nav ul li {
 header nav ul li a {
   display: block;
   text-decoration: none;
-  color: #fff;
+  color: #f4f0ed;
   padding: 10px;
 }
 header nav ul li a:hover {
@@ -57,20 +87,47 @@ header nav ul li a:hover {
 }
 header .nav-open {
   display: block;
+  background-color: #2f5266;
 }
 
 main {
-  top: 0px;
-  left: 0px;
-  position: absolute;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+main .section {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .section .content {
+  max-width: 90%;
 }
 main .hero {
   background-color: #2f5266;
-  color: #fff;
-  height: 100svh;
+  color: #f4f0ed;
+}
+main .motifs {
+  background-color: #f4f0ed;
+  color: #2f5266;
+}
+main .about {
+  background-color: #2f5266;
+  color: #f4f0ed;
+}
+main .contact {
+  background-color: #f4f0ed;
+  color: #2f5266;
+}
+
+footer {
+  background-color: #2f5266;
+  color: #f4f0ed;
+  padding: 5px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
 }
 
 @media (min-width: 768px) {
