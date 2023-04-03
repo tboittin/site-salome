@@ -21,11 +21,13 @@ ul {
 h1 {
   font-size: 4rem;
   font-weight: 400;
+  text-align: center;
 }
 
 h2 {
   font-size: 3rem;
   font-weight: 400;
+  text-align: center;
 }
 
 header {
@@ -136,9 +138,11 @@ main .motifs .content .motif {
 }
 main .motifs .content .motif svg {
   height: 10vw;
+  min-height: 50px;
 }
 main .motifs .content .motif p {
   margin-top: 5px;
+  text-align: center;
 }
 main .about {
   background-color: #2f5266;
@@ -157,6 +161,7 @@ main .about .content .right {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 15px;
 }
 main .about .content .right img {
   border-radius: 50%;

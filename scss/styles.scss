@@ -25,11 +25,13 @@ ul {
 h1 {
   font-size: 4rem;
   font-weight: 400;
+  text-align: center;
 }
 
 h2 {
   font-size: 3rem;
   font-weight: 400;
+  text-align: center;
 }
 
 header {
@@ -140,9 +142,11 @@ main {
         margin-bottom: 20px;
         svg {
           height: 10vw;
+          min-height: 50px;
         }
         p {
           margin-top: 5px;
+          text-align: center;
         }
       }
     }
@@ -162,6 +166,7 @@ main {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-bottom: 15px;
         img {
           border-radius: 50%;
           object-fit: cover;
