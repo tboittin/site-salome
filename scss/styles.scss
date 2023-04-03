@@ -116,6 +116,7 @@ main {
   .hero {
     background-color: $primary;
     color: $secondary;
+    text-align: center;
   }
   .motifs {
     background-color: $secondary;
@@ -124,6 +125,33 @@ main {
   .about {
     background-color: $primary;
     color: $secondary;
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .right {
+        border-radius: 50%;
+        border: solid 2px $tumbleweed;
+        width: 53vw;
+        height: 53vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          border-radius: 50%;
+          object-fit: cover;
+          width: 50vw;
+          height: 50vw;
+          border: solid $secondary 2px;
+        }
+      }
+      .left {
+        p {
+          margin: 40px 15px;
+          text-align: center;
+        }
+      }
+    }
   }
   .contact {
     background-color: $secondary;

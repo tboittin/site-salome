@@ -109,6 +109,7 @@ main .section .content {
 main .hero {
   background-color: #2f5266;
   color: #f4f0ed;
+  text-align: center;
 }
 main .motifs {
   background-color: #f4f0ed;
@@ -117,6 +118,31 @@ main .motifs {
 main .about {
   background-color: #2f5266;
   color: #f4f0ed;
+}
+main .about .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .about .content .right {
+  border-radius: 50%;
+  border: solid 2px #DEA681;
+  width: 53vw;
+  height: 53vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .about .content .right img {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 50vw;
+  height: 50vw;
+  border: solid #f4f0ed 2px;
+}
+main .about .content .left p {
+  margin: 40px 15px;
+  text-align: center;
 }
 main .contact {
   background-color: #f4f0ed;
