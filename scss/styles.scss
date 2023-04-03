@@ -1,6 +1,6 @@
 $primary: #2f5266;
 $secondary: #f4f0ed;
-$tumbleweed: #DEA681;
+$tumbleweed: #dea681;
 
 body {
   margin: 0;
@@ -9,13 +9,13 @@ body {
 h1,
 h2,
 h3 {
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   text-transform: capitalize;
 }
 
 p,
 li {
-  font-family: 'Lato';
+  font-family: "Lato";
 }
 
 ul {
@@ -111,6 +111,11 @@ main {
     align-items: center;
     .content {
       max-width: 90%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
     }
   }
   .hero {
@@ -121,6 +126,26 @@ main {
   .motifs {
     background-color: $secondary;
     color: $primary;
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .motif {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 20px;
+        svg {
+          height: 10vw;
+        }
+        p {
+          margin-top: 5px;
+        }
+      }
+    }
   }
   .about {
     background-color: $primary;
@@ -147,7 +172,6 @@ main {
       }
       .left {
         p {
-          margin: 40px 15px;
           text-align: center;
         }
       }
