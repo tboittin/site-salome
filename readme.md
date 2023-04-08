@@ -2,7 +2,7 @@ inspiration
 https://lycka.bold-themes.com/soft/
 
 MVP
- - [ ] icone hero
+ - [x] icone hero
  - [x] icones motifs
  - [ ] badge doctolib contact
  - [ ] badge téléphone

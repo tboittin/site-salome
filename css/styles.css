@@ -3,10 +3,14 @@ body {
 }
 
 h1,
-h2,
-h3 {
+h2 {
   font-family: "Playfair Display";
   text-transform: capitalize;
+}
+
+h3 {
+  font-family: "Lato";
+  text-transform: uppercase;
 }
 
 p,
@@ -28,6 +32,17 @@ h2 {
   font-size: 3rem;
   font-weight: 400;
   text-align: center;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #2f5266;
 }
 
 header {
@@ -192,6 +207,55 @@ main .about .content .left p {
 main .contact {
   background-color: #f4f0ed;
   color: #2f5266;
+}
+main .contact .content .doctolib {
+  display: block;
+  text-align: center;
+  background-color: #0596de;
+  color: #ffffff;
+  font-size: 14px;
+  overflow: hidden;
+  border-radius: 4px;
+  line-height: 35px;
+  margin: 0 5px;
+}
+main .contact .content .doctolib img {
+  height: 15px;
+  margin-bottom: 3px;
+  vertical-align: middle;
+  width: auto;
+}
+main .contact .badges {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+main .contact .badge {
+  border: 2px solid #eee1dd;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 100px;
+  width: 40vw;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+main .contact .badge .badge-svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+main .contact .badge .badge-svg svg {
+  grid-column: 1;
+  margin: 5px;
+  object-fit: contain;
+  width: 80%;
+}
+main .contact .badge .badge-text {
+  text-align: center;
 }
 
 footer {
