@@ -297,12 +297,15 @@ footer {
     border: 1px solid #888;
     width: 80%;
     ul {
-      list-style:disc;
-      li{
+      list-style: disc;
+      li {
         margin-top: 5px;
         a {
           text-decoration: underline;
           cursor: pointer;
+          &:hover {
+            font-weight: bold;
+          }
         }
       }
     }
@@ -325,6 +328,9 @@ footer {
 
 .trigger-modal {
   cursor: pointer;
+  &:hover {
+    font-weight: bold;
+  }
 }
 
 @media (min-width: 768px) {

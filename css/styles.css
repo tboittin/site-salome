@@ -295,6 +295,9 @@ footer {
   text-decoration: underline;
   cursor: pointer;
 }
+.modal .modal-content ul li a:hover {
+  font-weight: bold;
+}
 .modal .close {
   color: #aaa;
   float: right;
@@ -310,6 +313,9 @@ footer {
 
 .trigger-modal {
   cursor: pointer;
+}
+.trigger-modal:hover {
+  font-weight: bold;
 }
 
 @media (min-width: 768px) {
