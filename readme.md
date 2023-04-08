@@ -4,9 +4,9 @@ https://lycka.bold-themes.com/soft/
 MVP
  - [x] icone hero
  - [x] icones motifs
- - [ ] badge doctolib contact
- - [ ] badge téléphone
- - [ ] mentions légales
+ - [x] badge doctolib contact
+ - [x] badge téléphone
+ - [x] mentions légales
  - [ ] SEO
  - [ ] responsive desktop
 
