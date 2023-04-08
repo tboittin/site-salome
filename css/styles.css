@@ -51,7 +51,7 @@ header #hamburger .hamburger-bar {
   height: 3px;
   display: block;
   margin-bottom: 5px;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   transition: transform 0.3s ease-in-out;
 }
 header #hamburger .hamburger-bar:last-child {
@@ -117,6 +117,22 @@ main .hero {
   background-color: #2f5266;
   color: #f4f0ed;
   text-align: center;
+  justify-content: space-between;
+}
+main .hero .content {
+  margin-top: 20vh;
+}
+main .hero .logo-container {
+  height: 35vh;
+  width: 350px;
+}
+main .hero .logo-container .logo {
+  background-image: url("../svg/logo_black 1.svg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  bottom: 0;
+  height: 100%;
 }
 main .motifs {
   background-color: #f4f0ed;
