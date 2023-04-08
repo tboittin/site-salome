@@ -2,7 +2,9 @@
   background-color: $primary;
   color: $secondary;
   text-align: center;
-  justify-content: space-between;
+  &.section {
+    justify-content: space-between;
+  }
   .content {
     margin-top: 20vh;
   }
@@ -18,4 +20,7 @@
       height: 100%;
     }
   }
+}
+
+@media (min-width: 768px) {
 }

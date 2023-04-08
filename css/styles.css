@@ -151,6 +151,8 @@ header .nav-open {
   background-color: #2f5266;
   color: #f4f0ed;
   text-align: center;
+}
+.hero.section {
   justify-content: space-between;
 }
 .hero .content {
