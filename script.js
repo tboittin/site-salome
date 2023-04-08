@@ -1,9 +1,19 @@
 const hamburger = document.getElementById('hamburger');
 const navbar = document.getElementById('navbar');
+const navbarItems = document.querySelectorAll('.navbar-item');
 
 hamburger.addEventListener('click', function() {
   this.classList.toggle('active');
   navbar.classList.toggle('nav-open');
+});
+
+// Boucle sur chaque élément
+navbarItems.forEach((item) => {
+  // Ajout d'un écouteur d'événement "click"
+  item.addEventListener("click", () => {
+    hamburger.classList.toggle('active');
+    navbar.classList.toggle('nav-open');
+  });
 });
 
 // Obtenez la modale et le bouton de fermeture
