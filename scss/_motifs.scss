@@ -1,0 +1,26 @@
+.motifs {
+  background-color: $secondary;
+  color: $primary;
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .motif {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 20px;
+      svg {
+        height: 10vw;
+        min-height: 50px;
+      }
+      p {
+        margin-top: 5px;
+        text-align: center;
+      }
+    }
+  }
+}

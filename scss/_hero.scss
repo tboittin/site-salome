@@ -1,0 +1,21 @@
+.hero {
+  background-color: $primary;
+  color: $secondary;
+  text-align: center;
+  justify-content: space-between;
+  .content {
+    margin-top: 20vh;
+  }
+  .logo-container {
+    height: 35vh;
+    width: 350px;
+    .logo {
+      background-image: url("../svg/logo_black\ 1.svg");
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      bottom: 0;
+      height: 100%;
+    }
+  }
+}

@@ -7,8 +7,8 @@ MVP
  - [x] badge doctolib contact
  - [x] badge téléphone
  - [x] mentions légales
- - [ ] SEO
  - [ ] responsive desktop
+ - [ ] SEO
 
 
 Features

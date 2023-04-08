@@ -45,6 +45,28 @@ a {
   color: #2f5266;
 }
 
+main {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+main .section {
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .section .content {
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
 header {
   position: absolute;
   top: 0px;
@@ -107,41 +129,38 @@ header .nav-open {
   background-color: #2f5266;
 }
 
-main {
-  height: 100%;
-  width: 100%;
-  position: relative;
+@media (min-width: 768px) {
+  header #hamburger {
+    display: none;
+  }
+  header nav {
+    display: flex;
+    justify-content: center;
+  }
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    padding: 0;
+  }
+  header nav ul li {
+    margin: 0 10px;
+  }
 }
-main .section {
-  min-height: 100vh;
-  min-height: 100svh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-main .section .content {
-  max-width: 90%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
-}
-main .hero {
+.hero {
   background-color: #2f5266;
   color: #f4f0ed;
   text-align: center;
   justify-content: space-between;
 }
-main .hero .content {
+.hero .content {
   margin-top: 20vh;
 }
-main .hero .logo-container {
+.hero .logo-container {
   height: 35vh;
   width: 350px;
 }
-main .hero .logo-container .logo {
+.hero .logo-container .logo {
   background-image: url("../svg/logo_black 1.svg");
   background-position: center center;
   background-size: cover;
@@ -149,17 +168,18 @@ main .hero .logo-container .logo {
   bottom: 0;
   height: 100%;
 }
-main .motifs {
+
+.motifs {
   background-color: #f4f0ed;
   color: #2f5266;
 }
-main .motifs .content {
+.motifs .content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-main .motifs .content .motif {
+.motifs .content .motif {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -167,24 +187,25 @@ main .motifs .content .motif {
   width: 100%;
   margin-bottom: 20px;
 }
-main .motifs .content .motif svg {
+.motifs .content .motif svg {
   height: 10vw;
   min-height: 50px;
 }
-main .motifs .content .motif p {
+.motifs .content .motif p {
   margin-top: 5px;
   text-align: center;
 }
-main .about {
+
+.about {
   background-color: #2f5266;
   color: #f4f0ed;
 }
-main .about .content {
+.about .content {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-main .about .content .right {
+.about .content .right {
   border-radius: 50%;
   border: solid 2px #dea681;
   width: 53vw;
@@ -194,21 +215,22 @@ main .about .content .right {
   align-items: center;
   margin-bottom: 15px;
 }
-main .about .content .right img {
+.about .content .right img {
   border-radius: 50%;
   object-fit: cover;
   width: 50vw;
   height: 50vw;
   border: solid #f4f0ed 2px;
 }
-main .about .content .left p {
+.about .content .left p {
   text-align: center;
 }
-main .contact {
+
+.contact {
   background-color: #f4f0ed;
   color: #2f5266;
 }
-main .contact .content .doctolib {
+.contact .content .doctolib {
   display: block;
   text-align: center;
   background-color: #0596de;
@@ -219,19 +241,19 @@ main .contact .content .doctolib {
   line-height: 35px;
   margin: 0 5px;
 }
-main .contact .content .doctolib img {
+.contact .content .doctolib img {
   height: 15px;
   margin-bottom: 3px;
   vertical-align: middle;
   width: auto;
 }
-main .contact .badges {
+.contact .badges {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
 }
-main .contact .badge {
+.contact .badge {
   border: 2px solid #eee1dd;
   border-radius: 5px;
   display: grid;
@@ -242,19 +264,19 @@ main .contact .badge {
   justify-content: center;
   margin-top: 20px;
 }
-main .contact .badge .badge-svg {
+.contact .badge .badge-svg {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
 }
-main .contact .badge .badge-svg svg {
+.contact .badge .badge-svg svg {
   grid-column: 1;
   margin: 5px;
   object-fit: contain;
   width: 80%;
 }
-main .contact .badge .badge-text {
+.contact .badge .badge-text {
   text-align: center;
 }
 
@@ -316,25 +338,6 @@ footer {
 }
 .trigger-modal:hover {
   font-weight: bold;
-}
-
-@media (min-width: 768px) {
-  header #hamburger {
-    display: none;
-  }
-  header nav {
-    display: flex;
-    justify-content: center;
-  }
-  header nav ul {
-    display: flex;
-    flex-direction: row;
-    background-color: transparent;
-    padding: 0;
-  }
-  header nav ul li {
-    margin: 0 10px;
-  }
 }
 
 /*# sourceMappingURL=styles.css.map */

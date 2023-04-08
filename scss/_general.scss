@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display";
+  text-transform: capitalize;
+}
+
+h3 {
+  font-family: "Lato";
+  text-transform: uppercase;
+}
+
+p,
+li {
+  font-family: "Lato";
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #2f5266;
+}
+
+
+main {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  .section {
+    min-height: 100vh;
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .content {
+      max-width: 90%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+  }
+}
