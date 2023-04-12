@@ -67,6 +67,15 @@ main .section .content {
   margin-bottom: 20px;
 }
 
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 5vw;
+  }
+
+  h2 {
+    font-size: 4vw;
+  }
+}
 header {
   position: absolute;
   top: 0px;
@@ -201,6 +210,38 @@ header .nav-open {
   text-align: center;
 }
 
+@media (min-width: 768px) {
+  .motifs h2 {
+    margin-bottom: 100px;
+  }
+  .motifs .content {
+    display: flex;
+    flex-direction: row !important;
+  }
+  .motifs .content .motif {
+    height: 35vh;
+    justify-content: start;
+  }
+  .motifs .content .motif p {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .motifs h2 {
+    align-self: center;
+    margin-bottom: 5vw;
+  }
+  .motifs .content {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-evenly;
+    width: 60vw;
+  }
+  .motifs .content .motif p {
+    margin-top: 20px;
+    font-size: 1.5vw;
+  }
+}
 .about {
   background-color: #2f5266;
   color: #f4f0ed;

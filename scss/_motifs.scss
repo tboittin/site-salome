@@ -24,3 +24,44 @@
     }
   }
 }
+
+@media (min-width: 768px) {
+  .motifs {
+    h2 {
+      margin-bottom: 100px;
+    }
+    .content {
+      display: flex;
+      flex-direction: row!important;
+      .motif {
+        height: 35vh;
+        justify-content: start;
+        p {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .motifs {
+    h2 {
+      align-self: center;
+      margin-bottom: 5vw;
+    }
+    .content {
+      display: flex;
+      flex-direction: row!important;
+      justify-content: space-evenly;
+      width: 60vw;
+      .motif {
+        p {
+          margin-top: 20px;
+          font-size: 1.5vw;
+
+        }
+      }
+    }
+  }
+}
