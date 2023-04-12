@@ -159,16 +159,19 @@ header .nav-open {
   margin-top: 20vh;
 }
 .hero .logo-container {
-  height: 35vh;
-  width: 350px;
+  height: 50vh;
+  width: 50vw;
+  min-width: 350px;
+  display: flex;
+  align-items: end;
 }
 .hero .logo-container .logo {
   background-image: url("../svg/logo_black 1.svg");
-  background-position: center center;
-  background-size: cover;
+  background-position: center bottom;
+  background-size: contain;
   background-repeat: no-repeat;
-  bottom: 0;
-  height: 100%;
+  height: 80%;
+  width: 100%;
 }
 
 .motifs {
