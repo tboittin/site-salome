@@ -235,7 +235,10 @@ header .nav-open {
     display: flex;
     flex-direction: row !important;
     justify-content: space-evenly;
-    width: 60vw;
+    width: 75vw;
+  }
+  .motifs .content .motif {
+    margin: 0 2.5vw;
   }
   .motifs .content .motif p {
     margin-top: 20px;
