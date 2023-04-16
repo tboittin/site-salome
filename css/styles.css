@@ -318,8 +318,9 @@ header .nav-open {
 }
 .contact .badges {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
+  align-items: center;
   width: 100%;
 }
 .contact .badge {
@@ -328,10 +329,11 @@ header .nav-open {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 100px;
-  width: 40vw;
   align-items: center;
+  align-content: center;
   justify-content: center;
   margin-top: 20px;
+  min-height: 15vh;
 }
 .contact .badge .badge-svg {
   display: flex;
@@ -344,11 +346,17 @@ header .nav-open {
   margin: 5px;
   object-fit: contain;
   width: 80%;
+  max-height: 100%;
 }
 .contact .badge .badge-text {
   text-align: center;
 }
 
+@media (min-width: 768px) {
+  .badge {
+    width: 40vw;
+  }
+}
 footer {
   background-color: #2f5266;
   color: #f4f0ed;
