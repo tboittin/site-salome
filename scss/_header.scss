@@ -71,8 +71,12 @@ header {
     }
 
     nav {
+      position: fixed;
+      top: 0px;
+      width: 100%;
       display: flex;
       justify-content: center;
+      background-color: $primary;
       ul {
         display: flex;
         flex-direction: row;

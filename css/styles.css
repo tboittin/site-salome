@@ -153,8 +153,12 @@ header .nav-open {
     display: none;
   }
   header nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
     display: flex;
     justify-content: center;
+    background-color: #2f5266;
   }
   header nav ul {
     display: flex;
