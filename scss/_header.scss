@@ -1,9 +1,9 @@
 header {
-  position: absolute;
+  position: fixed;
   top: 0px;
   left: 0px;
   z-index: 10;
-  background-color: transparent;
+  background-color: $primary;
   height: fit-content;
   width: 100%;
   #hamburger {
@@ -50,8 +50,10 @@ header {
           text-decoration: none;
           color: $secondary;
           padding: 10px;
-          &:hover {
+          &:hover,
+          &.active {
             font-weight: bold;
+            text-decoration: underline;
           }
         }
       }
@@ -59,7 +61,7 @@ header {
   }
 
   .nav-open {
-    display: block;
+    display: flex;
     background-color: $primary;
   }
 }
@@ -80,10 +82,22 @@ header {
       ul {
         display: flex;
         flex-direction: row;
-        background-color: transparent;
         padding: 0;
         li {
           margin: 0 10px;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  header {
+    nav {
+      ul {
+        li {
+          font-size: 24px;
         }
       }
     }
