@@ -7,14 +7,18 @@ MVP
  - [x] badge doctolib contact
  - [x] badge téléphone
  - [x] mentions légales
- - [ ] responsive desktop
- - [ ] SEO
+ - [x] responsive desktop
+ - [ ] Ajouter Salomé - Psychologue dans la navbar
+ - [ ] Ajouter un badge fixe doctolib
+ - [x] SEO
 
 
 Features
  - [ ] textures
- - [ ] navbar qui varie avec le scroll
+ - [x] navbar qui varie avec le scroll
  - [ ] bordures sections elegantes
- - [ ] animations
+ - [ ] smooth scroll
+ - [ ] animations boutons
+ - [ ] animations menu déroulant
  - [ ] optimisation images
  - [ ] optimisation JS
