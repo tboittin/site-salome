@@ -8,12 +8,12 @@ MVP
  - [x] badge téléphone
  - [x] mentions légales
  - [x] responsive desktop
- - [ ] Ajouter Salomé - Psychologue dans la navbar
- - [ ] Ajouter un badge fixe doctolib
+ - [x] Ajouter Salomé - Psychologue dans la navbar
  - [x] SEO
 
 
 Features
+ - [ ] Ajouter un badge fixe doctolib
  - [ ] textures
  - [x] navbar qui varie avec le scroll
  - [ ] bordures sections elegantes

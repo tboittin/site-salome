@@ -38,18 +38,28 @@ header {
   }
   nav {
     display: none;
+    .nav-label {
+      display: flex;
+      color: $secondary;
+      align-items: center;
+      font-family: "Lato";
+      padding-left: 20px;
+      font-size: 1.25rem;
+      margin: 20px 0;
+    }
     ul {
       flex-direction: column;
       padding: 0 10px;
       margin: 0;
       list-style: none;
-      li {
+      li,
+      .nav-label {
         margin: 10px 0;
+        padding: 10px;
         a {
           display: block;
           text-decoration: none;
           color: $secondary;
-          padding: 10px;
           &:hover,
           &.active {
             font-weight: bold;
@@ -62,6 +72,7 @@ header {
 
   .nav-open {
     display: flex;
+    flex-direction: column;
     background-color: $primary;
   }
 }
@@ -77,8 +88,14 @@ header {
       top: 0px;
       width: 100%;
       display: flex;
-      justify-content: center;
+      justify-content: space-evenly;
+      align-items: center;
       background-color: $primary;
+      flex-direction: row;
+      .nav-label {
+        margin: 0;
+        font-size: 18px;
+      }
       ul {
         display: flex;
         flex-direction: row;
@@ -95,6 +112,10 @@ header {
 @media (min-width: 1200px) {
   header {
     nav {
+      .nav-label {
+        margin: 0;
+        font-size: 24px;
+      }
       ul {
         li {
           font-size: 24px;
