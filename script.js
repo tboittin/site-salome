@@ -61,3 +61,23 @@ window.addEventListener('click', (event) => {
     modal.style.display = 'none';
   }
 });
+
+// Fonction pour gérer le redimensionnement de l'écran
+function handleResize() {
+  // Sélectionnez l'élément auquel la classe .nav-open doit être enlevée
+  const navElement = document.querySelector('.nav-open');
+  // Sélectionnez l'élément #hamburger auquel la classe .active doit être enlevée
+  const hamburgerElement = document.querySelector('#hamburger');
+
+  if (window.innerWidth > 768) {
+    if (navElement && navElement.classList.contains('nav-open')) {
+      navElement.classList.remove('nav-open');
+    }
+    if (hamburgerElement && hamburgerElement.classList.contains('active')) {
+      hamburgerElement.classList.remove('active');
+    }
+  }
+}
+
+// Ajoutez un écouteur d'événements pour détecter le redimensionnement de l'écran
+window.addEventListener('resize', handleResize);
