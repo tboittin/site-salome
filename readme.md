@@ -13,11 +13,11 @@ MVP
 
 
 Features
- - [ ] Ajouter un badge fixe doctolib
+ - [x] Ajouter un badge fixe doctolib
  - [ ] textures
  - [x] navbar qui varie avec le scroll
  - [ ] bordures sections elegantes
- - [ ] smooth scroll
+ - [x] smooth scroll
  - [ ] animations boutons
  - [ ] animations menu déroulant
  - [ ] optimisation images

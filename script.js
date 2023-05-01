@@ -16,7 +16,10 @@ function setActiveNav() {
   sections.forEach(section => {
     if (section.getBoundingClientRect().top <= 1) {
       visibleSection = section.getAttribute("id")
-      if (section.className.includes("about") || section.className.includes("contact")) {
+      if (
+        section.className.includes("about") ||
+        section.className.includes("contact")
+      ) {
         doctolib.classList.remove("visible")
       } else {
         doctolib.classList.add("visible")
@@ -36,11 +39,13 @@ function setActiveNav() {
 // Fonction pour gérer le comportement du menu hamburger
 function toggleHamburgerMenu() {
   hamburger.classList.toggle("active")
-  navbar.classList.toggle("nav-open")
+  if (window.innerWidth < 768) {
+    navbar.classList.toggle("nav-open")
+  }
 }
 
 // Fonction pour gérer le redimensionnement de l'écran
-function handleResize() {
+function removeNavOpen() {
   const navElement = document.querySelector(".nav-open")
   const hamburgerElement = document.querySelector("#hamburger")
 
@@ -54,9 +59,19 @@ function handleResize() {
   }
 }
 
+function smoothScrolling(link) {
+  const target = document.querySelector(link.getAttribute("href"))
+  const targetPosition = target.offsetTop
+
+  window.scrollTo({
+    top: targetPosition,
+    behavior: "smooth",
+  })
+}
+
 // Ajout des écouteurs d'événements
 window.addEventListener("scroll", setActiveNav)
-window.addEventListener("resize", handleResize)
+window.addEventListener("resize", removeNavOpen)
 hamburger.addEventListener("click", toggleHamburgerMenu)
 
 navbarItems.forEach(item => {
@@ -76,4 +91,12 @@ window.addEventListener("click", event => {
   if (event.target === modal) {
     modal.style.display = "none"
   }
+})
+
+navbarLinks.forEach(link => {
+  link.addEventListener("click", e => {
+    // Empêcher le comportement par défaut du lien (ne pas recharger la page)
+    e.preventDefault()
+    smoothScrolling(link)
+  })
 })

@@ -187,7 +187,7 @@ header .nav-label {
   header #hamburger {
     display: none;
   }
-  header nav {
+  header nav, header .nav-open {
     position: fixed;
     top: 0px;
     width: 100%;
@@ -197,16 +197,16 @@ header .nav-label {
     background-color: #2f5266;
     flex-direction: row;
   }
-  header nav .nav-label {
+  header nav .nav-label, header .nav-open .nav-label {
     margin: 0;
     font-size: 18px;
   }
-  header nav ul {
+  header nav ul, header .nav-open ul {
     display: flex;
     flex-direction: row;
     padding: 0;
   }
-  header nav ul li {
+  header nav ul li, header .nav-open ul li {
     margin: 0 10px;
     font-size: 18px;
   }
