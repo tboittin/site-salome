@@ -68,9 +68,25 @@ main {
   }
 }
 
+.mobile {
+  display: block;
+}
+
+.desktop {
+  display: none;
+}
+
 @media (min-width: 768px) {
   h2 {
     margin-bottom: 10vh;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
   }
 }
 

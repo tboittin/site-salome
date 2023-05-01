@@ -68,9 +68,25 @@ main .section .content {
   margin-bottom: 20px;
 }
 
+.mobile {
+  display: block;
+}
+
+.desktop {
+  display: none;
+}
+
 @media (min-width: 768px) {
   h2 {
     margin-bottom: 10vh;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
   }
 }
 @media (min-width: 1200px) {
@@ -126,15 +142,6 @@ header #hamburger.active .hamburger-bar:nth-child(3) {
 header nav {
   display: none;
 }
-header nav .nav-label {
-  display: flex;
-  color: #f4f0ed;
-  align-items: center;
-  font-family: "Lato";
-  padding-left: 20px;
-  font-size: 1.25rem;
-  margin: 20px 0;
-}
 header nav ul {
   flex-direction: column;
   padding: 0 10px;
@@ -162,6 +169,18 @@ header .nav-open {
   display: flex;
   flex-direction: column;
   background-color: #2f5266;
+}
+header .nav-icons {
+  display: flex;
+  align-items: center;
+}
+header .nav-label {
+  color: #f4f0ed;
+  align-items: center;
+  font-family: "Lato";
+  padding-left: 20px;
+  font-size: 1.25rem;
+  margin: 20px 0;
 }
 
 @media (min-width: 768px) {
