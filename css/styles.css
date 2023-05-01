@@ -417,9 +417,44 @@ footer {
   color: #f4f0ed;
   padding: 5px;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+}
+footer .footer-elements {
+  padding-left: 10px;
+}
+footer .doctolib-badge {
+  background-color: #0596de;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 10px;
+  border: 1px #f4f0ed solid;
+  border-radius: 5px 5px 0 0;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+footer .doctolib-badge.visible {
+  display: block;
+}
+footer .doctolib-badge img {
+  padding: 5px;
+  object-fit: contain;
+  height: 5vh;
+  text-align: center;
 }
 
+@media (min-width: 992px) {
+  footer {
+    padding: 5px;
+  }
+  footer .footer-elements {
+    display: flex;
+    justify-content: space-around;
+  }
+}
 .modal {
   display: none;
   position: fixed;

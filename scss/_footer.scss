@@ -1,7 +1,45 @@
+$heightVh: 5;
+
 footer {
   background-color: $primary;
   color: $secondary;
   padding: 5px;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  .footer-elements {
+    padding-left: 10px;
+  }
+  .doctolib-badge {
+    background-color: $doctolib;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 10px;
+    border: 1px $secondary solid;
+    border-radius: 5px 5px 0 0;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    &.visible {
+      display: block;
+    }
+    img {
+      padding: 5px;
+      object-fit: contain;
+      height: $heightVh + vh;
+      text-align: center;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  footer {
+    .footer-elements {
+      display: flex;
+      justify-content: space-around;
+    }
+    padding: 5px;
+  }
 }
