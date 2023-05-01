@@ -1,4 +1,4 @@
-5884
+5885
 55E:\Web\site-salome\node_modules\js-yaml\lib\type\str.js133274351642277859 0
 46E:\Web\site-salome\node_modules\lmdb\README.md133274351658520923 0
 53E:\Web\site-salome\node_modules\dotenv-expand\LICENSE133274351622452724 0
@@ -24,7 +24,7 @@
 69E:\Web\site-salome\node_modules\css-tree\cjs\lexer\prepare-tokens.cjs133274351656740917 0
 55E:\Web\site-salome\node_modules\terser\lib\sourcemap.js133274351653439155 0
 59E:\Web\site-salome\node_modules\is-binary-path\package.json133274351619969182 0
-23E:\Web\site-salome\dist133274374903363089 1
+23E:\Web\site-salome\dist133274382355776927 1
 88E:\Web\site-salome\node_modules\css-select\node_modules\entities\lib\esm\decode.d.ts.map133274351643027851 0
 78E:\Web\site-salome\node_modules\electron-to-chromium\full-chromium-versions.js133274351621865341 0
 60E:\Web\site-salome\node_modules\sass\types\value\string.d.ts133274351656560956 0
@@ -56,7 +56,7 @@
 74E:\Web\site-salome\node_modules\msgpackr-extract\bin\download-prebuilds.js133274351623580045 0
 102E:\Web\site-salome\node_modules\@parcel\optimizer-htmlnano\node_modules\mdn-data\css\units.schema.json133274351642147829 0
 71E:\Web\site-salome\node_modules\htmlnano\lib\modules\removeUnusedCss.js133274351641997845 0
-29E:\Web\site-salome\index.html133274374102657154 0
+29E:\Web\site-salome\index.html133274382341520049 0
 40E:\Web\site-salome\node_modules\chokidar133274351628385063 1
 71E:\Web\site-salome\node_modules\svgo\plugins\cleanupEnableBackground.js133274351631204594 0
 93E:\Web\site-salome\node_modules\csso\node_modules\css-tree\cjs\syntax\node\MediaQueryList.cjs133274351655590943 0
@@ -112,7 +112,7 @@
 75E:\Web\site-salome\node_modules\source-map-support\register-hook-require.js133274351621125329 0
 88E:\Web\site-salome\node_modules\css-select\node_modules\domutils\lib\esm\querying.js.map133274351644791359 0
 76E:\Web\site-salome\node_modules\caniuse-lite\data\features\css-exclusions.js133274351658630936 0
-22E:\Web\site-salome\svg133274362154713371 1
+22E:\Web\site-salome\svg133274381986465656 1
 54E:\Web\site-salome\svg\1610380449beam-dotted-burst.svg133250232777091184 0
 90E:\Web\site-salome\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\README.md133274351658361038 0
 47E:\Web\site-salome\node_modules\css-what\lib\es133274351641667886 1
@@ -138,10 +138,32 @@
 66E:\Web\site-salome\node_modules\type-fest\source\set-optional.d.ts133274351642547821 0
 36E:\Web\site-salome\svg\confiance.svg133250270981037855 0
 56E:\Web\site-salome\node_modules\react-refresh\runtime.js133274351627717318 0
+70E:\Web\site-salome\node_modules\source-map\lib\source-map-generator.js133274351631234569 0
+67E:\Web\site-salome\node_modules\node-releases\data\release-schedule133274351624497901 1
+63E:\Web\site-salome\node_modules\caniuse-lite\data\regions\SH.js133274351671215754 0
+74E:\Web\site-salome\node_modules\@parcel\transformer-react-refresh-wrap\lib133274351624517477 1
+39E:\Web\site-salome\svg\logo_black 1.svg133254442503535714 0
+84E:\Web\site-salome\node_modules\caniuse-lite\data\features\keyboardevent-location.js133274351667878854 0
+82E:\Web\site-salome\node_modules\posthtml\node_modules\posthtml-parser\package.json133274351624547467 0
+92E:\Web\site-salome\node_modules\csso\node_modules\css-tree\cjs\syntax\node\ClassSelector.cjs133274351631912229 0
+53E:\Web\site-salome\node_modules\msgpackr\benchmark.md133274351651462118 0
+76E:\Web\site-salome\node_modules\utility-types\dist\functional-helpers.js.map133274351628385063 0
+70E:\Web\site-salome\node_modules\lmdb\dependencies\lz4\lib\liblz4.pc.in133274351657900935 0
+76E:\Web\site-salome\node_modules\caniuse-lite\data\features\css-gencontent.js133274351658910923 0
+71E:\Web\site-salome\node_modules\csso\node_modules\css-tree\lib\index.js133274351659210947 0
+57E:\Web\site-salome\node_modules\svgo\plugins\sortAttrs.js133274351653609227 0
+61E:\Web\site-salome\node_modules\css-tree\lib\walker\create.js133274351658650907 0
+63E:\Web\site-salome\node_modules\caniuse-lite\data\regions\NO.js133274351669328861 0
+69E:\Web\site-salome\node_modules\type-fest\source\merge-exclusive.d.ts133274351639424536 0
+31E:\Web\site-salome\svg\date.svg133274381987805616 0
+84E:\Web\site-salome\node_modules\caniuse-lite\data\features\css-print-color-adjust.js133274351659810948 0
+87E:\Web\site-salome\node_modules\@jridgewell\sourcemap-codec\dist\sourcemap-codec.umd.js133274351620765414 0
+54E:\Web\site-salome\node_modules\mdn-data\l10n\index.js133274351624657476 0
+64E:\Web\site-salome\node_modules\postcss-value-parser\lib\walk.js133274351626065011 0
 74E:\Web\site-salome\node_modules\caniuse-lite\data\features\css3-tabsize.js133274351664768856 0
 38E:\Web\site-salome\node_modules\base-x133274351622462364 1
-49E:\Web\site-salome\node_modules\@msgpackr-extract133274351682695756 1
 63E:\Web\site-salome\node_modules\lightningcss\node\index.js.flow133274351626821288 0
+49E:\Web\site-salome\node_modules\@msgpackr-extract133274351682695756 1
 73E:\Web\site-salome\node_modules\caniuse-lite\data\features\eventsource.js133274351665518863 0
 81E:\Web\site-salome\node_modules\caniuse-lite\data\features\input-email-tel-url.js133274351667338841 0
 46E:\Web\site-salome\node_modules\.bin\json5.ps1133274351678932300 0
@@ -150,13 +172,6 @@
 31E:\Web\site-salome\svg\lion.svg133250269855771070 0
 55E:\Web\site-salome\node_modules\htmlnano\lib\helpers.js133274351630849408 0
 57E:\Web\site-salome\node_modules\terser\dist\bundle.min.js133274351639604462 0
-70E:\Web\site-salome\node_modules\source-map\lib\source-map-generator.js133274351631234569 0
-67E:\Web\site-salome\node_modules\node-releases\data\release-schedule133274351624497901 1
-63E:\Web\site-salome\node_modules\caniuse-lite\data\regions\SH.js133274351671215754 0
-74E:\Web\site-salome\node_modules\@parcel\transformer-react-refresh-wrap\lib133274351624517477 1
-39E:\Web\site-salome\svg\logo_black 1.svg133254442503535714 0
-84E:\Web\site-salome\node_modules\caniuse-lite\data\features\keyboardevent-location.js133274351667878854 0
-82E:\Web\site-salome\node_modules\posthtml\node_modules\posthtml-parser\package.json133274351624547467 0
 105E:\Web\site-salome\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\pseudo\dir.js133274351650920547 0
 32E:\Web\site-salome\svg\phone.svg133254464944580598 0
 88E:\Web\site-salome\node_modules\css-select\node_modules\domutils\lib\manipulation.js.map133274351644123400 0
@@ -682,7 +697,6 @@
 54E:\Web\site-salome\node_modules\update-browserslist-db133274351627536167 1
 46E:\Web\site-salome\node_modules\weak-lru-cache133274351628575069 1
 65E:\Web\site-salome\node_modules\caniuse-lite\data\features\rem.js133274351670535397 0
-74E:\Web\site-salome\node_modules\@parcel\runtime-react-refresh\package.json133274351623904771 0
 54E:\Web\site-salome\node_modules\node-gyp-build\LICENSE133274351618789866 0
 60E:\Web\site-salome\node_modules\entities\lib\decode.d.ts.map133274351637257513 0
 75E:\Web\site-salome\node_modules\caniuse-lite\data\features\css-when-else.js133274351662673450 0
@@ -867,16 +881,6 @@
 54E:\Web\site-salome\node_modules\css-tree\cjs\convertor133274351653609227 1
 67E:\Web\site-salome\node_modules\type-fest\source\literal-union.d.ts133274351639304460 0
 72E:\Web\site-salome\node_modules\utility-types\dist\functional-helpers.js133274351621535330 0
-92E:\Web\site-salome\node_modules\csso\node_modules\css-tree\cjs\syntax\node\ClassSelector.cjs133274351631912229 0
-53E:\Web\site-salome\node_modules\msgpackr\benchmark.md133274351651462118 0
-76E:\Web\site-salome\node_modules\utility-types\dist\functional-helpers.js.map133274351628385063 0
-70E:\Web\site-salome\node_modules\lmdb\dependencies\lz4\lib\liblz4.pc.in133274351657900935 0
-76E:\Web\site-salome\node_modules\caniuse-lite\data\features\css-gencontent.js133274351658910923 0
-71E:\Web\site-salome\node_modules\csso\node_modules\css-tree\lib\index.js133274351659210947 0
-57E:\Web\site-salome\node_modules\svgo\plugins\sortAttrs.js133274351653609227 0
-61E:\Web\site-salome\node_modules\css-tree\lib\walker\create.js133274351658650907 0
-63E:\Web\site-salome\node_modules\caniuse-lite\data\regions\NO.js133274351669328861 0
-69E:\Web\site-salome\node_modules\type-fest\source\merge-exclusive.d.ts133274351639424536 0
 65E:\Web\site-salome\node_modules\css-tree\lib\syntax\config\mix.js133274351659900947 0
 54E:\Web\site-salome\node_modules\msgpackr\dist\index.js133274351630564136 0
 48E:\Web\site-salome\node_modules\stable\stable.js133274351622035308 0
@@ -1690,10 +1694,6 @@
 64E:\Web\site-salome\node_modules\postcss-value-parser\lib\unit.js133274351624597487 0
 59E:\Web\site-salome\node_modules\cosmiconfig\dist\types.d.ts133274351645305051 0
 76E:\Web\site-salome\node_modules\caniuse-lite\data\features\iframe-sandbox.js133274351667078851 0
-84E:\Web\site-salome\node_modules\caniuse-lite\data\features\css-print-color-adjust.js133274351659810948 0
-87E:\Web\site-salome\node_modules\@jridgewell\sourcemap-codec\dist\sourcemap-codec.umd.js133274351620765414 0
-54E:\Web\site-salome\node_modules\mdn-data\l10n\index.js133274351624657476 0
-64E:\Web\site-salome\node_modules\postcss-value-parser\lib\walk.js133274351626065011 0
 62E:\Web\site-salome\node_modules\domutils\lib\querying.d.ts.map133274351631942261 0
 54E:\Web\site-salome\node_modules\picomatch\CHANGELOG.md133274351629161702 0
 95E:\Web\site-salome\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\lexer\trace.js133274351657940921 0
@@ -2411,7 +2411,7 @@
 55E:\Web\site-salome\node_modules\@parcel\optimizer-image133274351658000960 1
 60E:\Web\site-salome\node_modules\@parcel\optimizer-terser\src133274351621555328 1
 54E:\Web\site-salome\node_modules\immutable\package.json133274351631274577 0
-50E:\Web\site-salome\dist\favicon-16x16.ffcc76f2.png133274374903073089 0
+50E:\Web\site-salome\dist\favicon-16x16.ffcc76f2.png133274382355325079 0
 63E:\Web\site-salome\node_modules\caniuse-lite\data\regions\FR.js133274351665978862 0
 51E:\Web\site-salome\node_modules\immutable\README.md133274351631742248 0
 61E:\Web\site-salome\node_modules\immutable\dist\immutable.d.ts133274351637655925 0
@@ -4802,6 +4802,7 @@
 54E:\Web\site-salome\node_modules\@parcel\diagnostic\src133274351621565333 1
 75E:\Web\site-salome\node_modules\@parcel\runtime-service-worker\package.json133274351623904771 0
 69E:\Web\site-salome\node_modules\@parcel\runtime-react-refresh\LICENSE133274351618878794 0
+74E:\Web\site-salome\node_modules\@parcel\runtime-react-refresh\package.json133274351623904771 0
 88E:\Web\site-salome\node_modules\@parcel\runtime-react-refresh\src\ReactRefreshRuntime.js133274351621795357 0
 54E:\Web\site-salome\node_modules\@parcel\runtime-js\lib133274351642227827 1
 58E:\Web\site-salome\node_modules\@parcel\runtime-js\LICENSE133274351621065334 0
@@ -5165,7 +5166,7 @@
 96E:\Web\site-salome\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\lexer\search.js133274351657130931 0
 57E:\Web\site-salome\node_modules\@parcel\optimizer-css\lib133274351620525315 1
 100E:\Web\site-salome\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\generator\create.js133274351640355486 0
-46E:\Web\site-salome\dist\index.748ad148.css.map133274374903333106 0
+46E:\Web\site-salome\dist\index.748ad148.css.map133274382354245086 0
 80E:\Web\site-salome\node_modules\@parcel\core\test\fixtures\main-mjs\package.json133274351659290948 0
 110E:\Web\site-salome\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\definition-syntax\generate.js133274351651943756 0
 107E:\Web\site-salome\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\definition-syntax\parse.js133274351656860919 0
@@ -5407,7 +5408,7 @@
 100E:\Web\site-salome\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\dist\csstree.min.js133274351645385008 0
 94E:\Web\site-salome\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\data\index.js133274351653899150 0
 96E:\Web\site-salome\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\data\patch.json133274351658260925 0
-34E:\Web\site-salome\dist\index.html133274374903213099 0
+34E:\Web\site-salome\dist\index.html133274382355746964 0
 90E:\Web\site-salome\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\LICENSE133274351620165327 0
 113E:\Web\site-salome\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-alias\bar.js133274351631144579 0
 92E:\Web\site-salome\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\README.md133274351641747911 0
@@ -5554,7 +5555,7 @@
 58E:\Web\site-salome\node_modules\@parcel\graph\lib\index.js133274351631782272 0
 75E:\Web\site-salome\node_modules\@parcel\fs-search\fs-search.darwin-x64.node133274351631872269 0
 84E:\Web\site-salome\node_modules\@parcel\fs-search\fs-search.linux-arm-gnueabihf.node133274351639384534 0
-59E:\Web\site-salome\dist\android-chrome-192x192.45991ca3.png133274374903083089 0
+59E:\Web\site-salome\dist\android-chrome-192x192.45991ca3.png133274382355315101 0
 80E:\Web\site-salome\node_modules\@parcel\fs-search\fs-search.linux-arm64-gnu.node133274351641757872 0
 79E:\Web\site-salome\node_modules\@parcel\fs-search\fs-search.linux-x64-musl.node133274351651070518 0
 58E:\Web\site-salome\node_modules\@parcel\fs-search\index.js133274351620505322 0
@@ -5870,16 +5871,16 @@
 40E:\Web\site-salome\img\favicon-32x32.png133274363239105519 0
 49E:\Web\site-salome\img\Image de Nick Fewings.webp133250222698588582 0
 44E:\Web\site-salome\img\Photo 1 - Site 1.webp133250222577939482 0
-59E:\Web\site-salome\dist\android-chrome-512x512.41c065d3.png133274374903333106 0
-53E:\Web\site-salome\dist\apple-touch-icon.ee50dba1.png133274374903233094 0
-50E:\Web\site-salome\dist\favicon-32x32.df27f829.png133274374903233094 0
-44E:\Web\site-salome\dist\favicon.3e1d2526.ico133274374903093089 0
-41E:\Web\site-salome\dist\index.672d4772.js133274374903263110 0
-45E:\Web\site-salome\dist\index.672d4772.js.map133274374903343098 0
-42E:\Web\site-salome\dist\index.748ad148.css133274374903213099 0
-49E:\Web\site-salome\dist\logo_black 1.92bf7195.svg133274374903073089 0
-52E:\Web\site-salome\dist\Photo site 3 1.6e1d5c04.webp133274374903273101 0
-47E:\Web\site-salome\dist\site-salome.3464ddca.js133274374903233094 0
-51E:\Web\site-salome\dist\site-salome.3464ddca.js.map133274374903343098 0
+59E:\Web\site-salome\dist\android-chrome-512x512.41c065d3.png133274382353865100 0
+53E:\Web\site-salome\dist\apple-touch-icon.ee50dba1.png133274382353845077 0
+50E:\Web\site-salome\dist\favicon-32x32.df27f829.png133274382353845077 0
+44E:\Web\site-salome\dist\favicon.3e1d2526.ico133274382354425073 0
+41E:\Web\site-salome\dist\index.672d4772.js133274382354195089 0
+45E:\Web\site-salome\dist\index.672d4772.js.map133274382354245086 0
+42E:\Web\site-salome\dist\index.748ad148.css133274382354195089 0
+49E:\Web\site-salome\dist\logo_black 1.92bf7195.svg133274382355746964 0
+52E:\Web\site-salome\dist\Photo site 3 1.6e1d5c04.webp133274382353295095 0
+47E:\Web\site-salome\dist\site-salome.3464ddca.js133274382355706938 0
+51E:\Web\site-salome\dist\site-salome.3464ddca.js.map133274382355776927 0
 33E:\Web\site-salome\css\styles.css133274374687210995 0
 37E:\Web\site-salome\css\styles.css.map133274339912577087 0
