@@ -50,7 +50,7 @@ main {
   width: 100%;
   position: relative;
 }
-main .section {
+main section {
   min-height: 100vh;
   min-height: 100svh;
   display: flex;
@@ -59,7 +59,7 @@ main .section {
   align-items: center;
   padding: 5vh 0;
 }
-main .section .content {
+main section .content {
   max-width: 90%;
   display: flex;
   flex-direction: column;
@@ -225,7 +225,7 @@ header .nav-label {
   color: #f4f0ed;
   text-align: center;
 }
-.hero.section {
+section.hero {
   justify-content: space-between;
   padding: 0;
 }

@@ -49,7 +49,7 @@ main {
   position: relative;
 }
 
-main .section {
+main section {
   min-height: 100vh;
   min-height: 100svh;
   flex-direction: column;
@@ -59,7 +59,7 @@ main .section {
   display: flex;
 }
 
-main .section .content {
+main section .content {
   max-width: 90%;
   flex-direction: column;
   justify-content: center;
@@ -247,7 +247,7 @@ header .nav-label {
   background-color: #2f5266;
 }
 
-.hero.section {
+section.hero {
   justify-content: space-between;
   padding: 0;
 }
