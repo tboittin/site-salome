@@ -22,3 +22,6 @@ Features
  - [ ] animations menu déroulant
  - [ ] optimisation images
  - [ ] optimisation JS
+
+commande sass
+sass --watch scss:css
