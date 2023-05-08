@@ -21,7 +21,10 @@ Features
  - [ ] animations boutons
  - [ ] animations menu déroulant
  - [ ] optimisation images
- - [ ] optimisation JS
+ - [x] optimisation JS
+ - [ ] créer de nouvelles pages pour développer les sujet
+    - [ ] motifs de consultation
+    - [ ] qui suis-je => paragraphe sur eux
 
 commande sass
 sass --watch scss:css
