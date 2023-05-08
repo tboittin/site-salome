@@ -101,6 +101,15 @@ main {
   }
 
   p {
-    font-size: 1.25vw;
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 2000px) {
+  h3 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 2rem;
   }
 }

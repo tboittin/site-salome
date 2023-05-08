@@ -22,9 +22,10 @@ Features
  - [ ] animations menu déroulant
  - [ ] optimisation images
  - [x] optimisation JS
- - [ ] créer de nouvelles pages pour développer les sujet
+ - [ ] créer de nouvelles pages pour développer les sujets
     - [ ] motifs de consultation
     - [ ] qui suis-je => paragraphe sur eux
+ - [ ] animation pop-up/pop-out badge doctolib
 
 commande sass
 sass --watch scss:css
