@@ -224,8 +224,6 @@ header .nav-label {
   background-color: #2f5266;
   color: #f4f0ed;
   text-align: center;
-}
-section.hero {
   justify-content: space-between;
   padding: 0;
 }
@@ -420,6 +418,8 @@ footer {
   flex-direction: column;
 }
 footer .footer-elements {
+  display: flex;
+  justify-content: space-around;
   padding-left: 10px;
 }
 footer .doctolib-badge {
@@ -449,10 +449,6 @@ footer .doctolib-badge img {
 @media (min-width: 992px) {
   footer {
     padding: 5px;
-  }
-  footer .footer-elements {
-    display: flex;
-    justify-content: space-around;
   }
 }
 .modal {
