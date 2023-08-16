@@ -29,3 +29,6 @@ Features
 
 commande sass
 sass --watch scss:css
+
+commande build
+npx parcel index.html

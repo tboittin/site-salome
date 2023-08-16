@@ -16,6 +16,11 @@ p, li {
   font-family: Lato;
 }
 
+p.signature, li.signature {
+  padding-top: 1rem;
+  font-size: 2rem;
+}
+
 ul {
   list-style: none;
 }
@@ -88,6 +93,10 @@ main section .content {
   .desktop {
     display: block;
   }
+
+  p.signature {
+    font-size: 2rem;
+  }
 }
 
 @media (width >= 1200px) {
@@ -103,6 +112,10 @@ main section .content {
   p {
     font-size: 1.25rem;
   }
+
+  p.signature {
+    font-size: 2.5rem;
+  }
 }
 
 @media (width >= 2000px) {
@@ -112,6 +125,10 @@ main section .content {
 
   p {
     font-size: 2rem;
+  }
+
+  p.signature {
+    font-size: 3.5rem;
   }
 }
 
@@ -376,6 +393,11 @@ header .nav-label {
 
 .about .content .left p {
   text-align: center;
+}
+
+.about .content .left p.signature {
+  text-align: right;
+  font-family: Great Vibes, cursive;
 }
 
 @media (width >= 768px) {
