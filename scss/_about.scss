@@ -1,52 +1,56 @@
 .about {
-  background-color: $primary;
-  color: $secondary;
-  .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    .right {
-      border-radius: 50%;
-      border: solid 2px $tumbleweed;
-      width: 53vw;
-      height: 53vw;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 15px;
-      img {
-        border-radius: 50%;
-        object-fit: cover;
-        width: 50vw;
-        height: 50vw;
-        border: solid $secondary 2px;
-      }
+    background-color: $primary;
+    color: $secondary;
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .right {
+            border-radius: 50%;
+            border: solid 2px $tumbleweed;
+            width: 53vw;
+            height: 53vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 15px;
+            img {
+                border-radius: 50%;
+                object-fit: cover;
+                width: 50vw;
+                height: 50vw;
+                border: solid $secondary 2px;
+            }
+        }
+        .left {
+            p {
+                text-align: center;
+                &.signature {
+                  text-align: right;
+                  font-family: 'Great Vibes', cursive;
+                }
+            }
+        }
     }
-    .left {
-      p {
-        text-align: center;
-      }
-    }
-  }
 }
 
 @media (min-width: 768px) {
-.about {
-  .content {
-    flex-direction: row-reverse!important;
-    justify-content: space-evenly!important;
-    width: 75vw;
-    .right {
-      width: 25vw;
-      height: 25vw;
-      img {
-        width: 24vw;
-        height: 24vw;
-      }
+    .about {
+        .content {
+            flex-direction: row-reverse !important;
+            justify-content: space-evenly !important;
+            width: 75vw;
+            .right {
+                width: 25vw;
+                height: 25vw;
+                img {
+                    width: 24vw;
+                    height: 24vw;
+                }
+            }
+            .left {
+                width: 35vw;
+            }
+        }
     }
-    .left {
-      width: 35vw;
-    }
-  }
-}
 }

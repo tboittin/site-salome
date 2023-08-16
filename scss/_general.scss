@@ -16,6 +16,10 @@ h3 {
 p,
 li {
   font-family: "Lato";
+  &.signature {
+    padding-top: 1rem;
+    font-size: 2rem;
+  }
 }
 
 ul {
@@ -88,6 +92,10 @@ main {
   .desktop {
     display: block;
   }
+
+  p.signature {
+    font-size: 2rem;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -102,6 +110,9 @@ main {
 
   p {
     font-size: 1.25rem;
+    &.signature {
+      font-size: 2.5rem;
+    }
   }
 }
 
@@ -111,5 +122,8 @@ main {
   }
   p {
     font-size: 2rem;
+    &.signature {
+      font-size: 3.5rem;
+    }
   }
 }
