@@ -1,7 +1,7 @@
 // Sélection des éléments du DOM
 const hamburger = document.getElementById("hamburger");
 const navbar = document.getElementById("navbar");
-const doctolib = document.getElementById("doctolib");
+const teleconsultation = document.getElementById("teleconsultation");
 const navbarItems = document.querySelectorAll(".navbar-item");
 const navbarLinks = navbar.querySelectorAll("a");
 const sections = document.querySelectorAll("section");
@@ -14,8 +14,8 @@ function setActiveNav() {
     sections.forEach((section)=>{
         if (section.getBoundingClientRect().top <= 1) {
             visibleSection = section.getAttribute("id");
-            if (section.className.includes("about") || section.className.includes("contact")) doctolib.classList.remove("visible");
-            else doctolib.classList.add("visible");
+            if (section.className.includes("about") || section.className.includes("contact")) teleconsultation.classList.remove("visible");
+            else teleconsultation.classList.add("visible");
         }
     });
     navbarLinks.forEach((link)=>{

@@ -1,129 +1,154 @@
 body {
-  margin: 0;
+    margin: 0;
 }
 
 h1,
 h2 {
-  font-family: "Playfair Display";
-  text-transform: capitalize;
+    font-family: "Playfair Display";
+    text-transform: capitalize;
 }
 
 h3 {
-  font-family: "Lato";
-  text-transform: uppercase;
+    font-family: "Lato";
+    text-transform: uppercase;
 }
 
 p,
 li {
-  font-family: "Lato";
-  &.signature {
-    padding-top: 1rem;
-    font-size: 2rem;
-  }
+    font-family: "Lato";
+    &.signature {
+        padding-top: 1rem;
+        font-size: 2rem;
+    }
 }
 
 ul {
-  list-style: none;
+    list-style: none;
 }
 
 h1 {
-  font-size: 4rem;
-  font-weight: 400;
-  text-align: center;
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
 }
 
 h2 {
-  font-size: 3rem;
-  font-weight: 400;
-  text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
 }
 
 h3 {
-  font-size: 1.25rem;
-  font-weight: 300;
-  text-align: center;
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-align: center;
 }
 
 a {
-  text-decoration: none;
-  color: #2f5266;
+    text-decoration: none;
+    color: #2f5266;
 }
 
 main {
-  height: 100%;
-  width: 100%;
-  position: relative;
-  section {
-    min-height: 100vh;
-    min-height: 100svh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 5vh 0;
-    .content {
-      max-width: 90%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 20px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    section {
+        min-height: 100vh;
+        min-height: 100svh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5vh 0;
+        .content {
+            max-width: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
     }
-  }
+}
+
+.bouton-rdv {
+    background-color: #2f5266;
+    color: #f4f0ed;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: opacity 0.3s;
+    &-xl {
+      font-size: 24px;
+      background-color: #2f5266;
+      color: #f4f0ed;
+      padding: 10px 20px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      transition: opacity 0.3s;
+    }
+}
+
+.bouton-rdv:hover {
+    opacity: 0.8;
 }
 
 .mobile {
-  display: block;
+    display: block;
 }
 
 .desktop {
-  display: none;
+    display: none;
 }
 
 @media (min-width: 768px) {
-  h2 {
-    margin-bottom: 10vh;
-  }
+    h2 {
+        margin-bottom: 10vh;
+    }
 
-  .mobile {
-    display: none;
-  }
+    .mobile {
+        display: none;
+    }
 
-  .desktop {
-    display: block;
-  }
+    .desktop {
+        display: block;
+    }
 
-  p.signature {
-    font-size: 2rem;
-  }
+    p.signature {
+        font-size: 2rem;
+    }
 }
 
 @media (min-width: 1200px) {
-  h1 {
-    font-size: 6vw;
-  }
-
-  h2 {
-    font-size: 4vw;
-    margin-bottom: 17vh;
-  }
-
-  p {
-    font-size: 1.25rem;
-    &.signature {
-      font-size: 2.5rem;
+    h1 {
+        font-size: 6vw;
     }
-  }
+
+    h2 {
+        font-size: 4vw;
+        margin-bottom: 17vh;
+    }
+
+    p {
+        font-size: 1.25rem;
+        &.signature {
+            font-size: 2.5rem;
+        }
+    }
 }
 
 @media (min-width: 2000px) {
-  h3 {
-    font-size: 3rem;
-  }
-  p {
-    font-size: 2rem;
-    &.signature {
-      font-size: 3.5rem;
+    h3 {
+        font-size: 3rem;
     }
-  }
+    p {
+        font-size: 2rem;
+        &.signature {
+            font-size: 3.5rem;
+        }
+    }
 }

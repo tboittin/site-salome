@@ -1,64 +1,45 @@
 .contact {
-  background-color: $secondary;
-  color: $primary;
-  .content {
-    .doctolib {
-      display: block;
-      text-align: center;
-      background-color: #0596de;
-      color: #ffffff;
-      font-size: 14px;
-      overflow: hidden;
-      border-radius: 4px;
-      line-height: 35px;
-      margin: 0 5px;
-      img {
-        height: 15px;
-        margin-bottom: 3px;
-        vertical-align: middle;
-        width: auto;
-      }
+    background-color: $secondary;
+    color: $primary;
+    .badges {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
     }
-  }
-  .badges {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-  }
-  .badge {
-    border: 2px solid hsl(14, 33%, 90%);
-    border-radius: 5px;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 100px;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    margin-top: 20px;
-    min-height: 15vh;
-    .badge-svg {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100%;
-      svg {
-        grid-column: 1;
-        margin: 5px;
-        object-fit: contain;
-        width: 80%;
-        max-height: 100%;
-      }
+    .badge {
+        border: 2px solid hsl(14, 33%, 90%);
+        border-radius: 5px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 100px;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        margin-top: 20px;
+        min-height: 15vh;
+        .badge-svg {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            svg {
+                grid-column: 1;
+                margin: 5px;
+                object-fit: contain;
+                width: 80%;
+                max-height: 100%;
+            }
+        }
+        .badge-text {
+            text-align: center;
+        }
     }
-    .badge-text {
-      text-align: center;
-    }
-  }
 }
 
 @media (min-width: 768px) {
-  .badge {
-    width: 40vw;
-  }
+    .badge {
+        width: 40vw;
+    }
 }
